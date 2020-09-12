@@ -49,7 +49,7 @@ To run this notebook, navigate to '/workspace/codes' directory and run beakerx u
 This notebook contains codes to generate and sample kernels. These kernels are saved to generatedKernels, their feature spaces are saved to generatedkernelfeatures. 
 Running the codes in the notebook multiple times will overwrite each generatedkernel and generatedkernelfeatures directory. 
 
-An example set of generated kernels can be found in 'workspace/codes/generatedkernelbatch1'
+An example set of generated kernels can be found in 'workspace/codes/generatedkernels'
 
 # Workbook Examples
 
