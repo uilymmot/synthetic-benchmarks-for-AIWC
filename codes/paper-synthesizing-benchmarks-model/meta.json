@@ -1,0 +1,15 @@
+{
+  "version": "0.1.7",
+  "author": "Chris Cummins <chrisc.101@gmail.com>",
+  "date packaged": "2016-11-16 12:37:05",
+  "contents": {
+    "model.t7": "f2b4ec9d006eee4961ad7b66603a58f8271ca822",
+    "model.json": "114007382410ded6544f6ab55850c00d586f5902"
+  },
+  "train_opts": {
+    "model_type": "lstm",
+    "max_epochs": 50,
+    "rnn_size": 2048,
+    "num_layers": 3
+  }
+}

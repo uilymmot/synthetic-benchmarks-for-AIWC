@@ -1,0 +1,23 @@
+#!/bin/bash
+
+FILES='AIWCFeatures/*'
+
+cd $1
+mkdir large
+mkdir medium
+mkdir small
+mkdir tiny
+
+mv *large_* large/
+mv *medium_* medium/
+mv *small_* small/
+mv *tiny_* tiny/
+
+cd large/
+echo A | unzip '*.zip' 
+cd ../medium/
+echo A | unzip '*.zip' 
+cd ../small
+echo A | unzip '*.zip' 
+cd ../tiny
+echo A | unzip '*.zip'
