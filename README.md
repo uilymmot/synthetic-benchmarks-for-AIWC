@@ -31,6 +31,8 @@ Note the `NVIDIA_VISIBLE_DEVICES` variable is the requested device id, which all
 
 From docker navigate to the '/workspace/codes/paper-synthesizing-benchmarks-model' directory
 
+Note that the model files in paper-synthesizing-models need to be downloaded from the provided link in the directory.
+
 To run the model run the command 'python resurrect-paper-model.py'
 
 To run the model to generate kernels and their aiwc features spaces navigate to '/workspace/codes'
@@ -69,5 +71,5 @@ A notebook including codes for analysing the data generated from this artefact i
 
 A notebook containing codes for generation and analysis of CLgen kernels can be found in codes/Kernel Generation Using CLgen.ipynb.
 
-
+Note that data files have been stored with git-lfs and requires unzipping in order to run the workbook codes provided.
 
